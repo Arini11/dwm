@@ -8,12 +8,12 @@ static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
-static char normbgcolor[]           = "#222222";
-static char normbordercolor[]       = "#444444";
+static char normbgcolor[]           = "#222222"; // Aquest he canviat
+static char normbordercolor[]       = "#770000";
 static char normfgcolor[]           = "#bbbbbb";
-static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#770000";
-static char selbgcolor[]            = "#005577";
+static char selfgcolor[]            = "#eeeeee"; // color lletres dmenu
+static char selbordercolor[]        = "#770000"; // color border finestres
+static char selbgcolor[]            = "#880033"; // color dmenu
 static char *colors[][3]      = {
 	   /*               fg         bg         border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
